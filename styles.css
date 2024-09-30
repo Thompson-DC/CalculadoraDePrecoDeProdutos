@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+header {
+    background-color: #0B192C;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+form {
+    width: 90%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+.product {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input.error {
+    border-color: red;
+}
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+.add-product {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.add-product:hover {
+    background-color: #45a049;
+}
+.compare-button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.compare-button:hover {
+    background-color: #007bb5;
+}
+.result {
+    margin-top: 20px;
+    width: 90%;
+    max-width: 600px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.result p {
+    margin: 5px 0;
+}

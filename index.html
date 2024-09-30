@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de melhor Preço</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Saiba agora o melhor preço de compra de seus produtos!</h1>
+    </header>
+
+    <form id="product-form">
+        <div class="product" data-index="0">
+            <label for="capacity-0">Capacidade (L, Kg ou Unid):</label>
+            <input type="text" id="capacity-0" placeholder="Ex: 1,500" inputmode="decimal" required>
+
+            <label for="price-0">Preço (R$):</label>
+            <input type="text" id="price-0" placeholder="Ex: 10,50" inputmode="decimal" required>
+        </div>
+
+        <div class="product" data-index="1">
+            <label for="capacity-1">Capacidade (L, Kg ou Unid):</label>
+            <input type="text" id="capacity-1" placeholder="Ex: 2,000" inputmode="decimal" required>
+
+            <label for="price-1">Preço (R$):</label>
+            <input type="text" id="price-1" placeholder="Ex: 18,00" inputmode="decimal" required>
+        </div>
+
+        <button type="button" class="add-product">Adicionar Produto</button>
+        <button type="button" class="compare-button">Comparar Preços</button>
+    </form>
+
+    <div id="result" class="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
